@@ -11,16 +11,17 @@ var fizzBuzz = function(n) {
     var result = [];
     
     for(var i=1 ; i<=n ; i++){
-        if( i%3===0 && i%5!==0){
-            result.push("Fizz");
+        var content = "";
+        if( i%3===0 || i%5===0 ){
+            if( i%3===0 ){
+                content = content + "Fizz";
+            }
+            if( i%5===0 ){
+                content = content + "Buzz";
+            }
+            result.push(content);
         }
-        else if( i%3!==0 && i%5===0){
-            result.push("Buzz");
-        }
-        else if( i%3===0 && i%5===0){
-            result.push("FizzBuzz");
-        }
-       else{
+        else{
             result.push(i.toString());
         }
     }
