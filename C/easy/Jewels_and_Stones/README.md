@@ -48,4 +48,4 @@ int numJewelsInStones(char* J, char* S) {
 
 ```
 
-![Jewels and Stones.png](./Jewels and Stones.png)
+![Jewels_and_Stones.png](./Jewels_and_Stones.png)
