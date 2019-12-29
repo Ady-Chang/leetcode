@@ -6,7 +6,7 @@
 
 ## submission solution
 
-```c
+```javascript
 
 
 
