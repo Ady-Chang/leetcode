@@ -1,3 +1,8 @@
-### 這是我以 JavaScript 以及 C 語言來做 Leet code 練習的 repository
+### Leetcode 
 
 * Easy Level
+    1. [JavaScript](https://github.com/adyjs/leetcode/tree/master/Easy_Level/JavaScript)
+    2. [C](https://github.com/adyjs/leetcode/tree/master/Easy_Level/C)
+
+* Medium Level
+* Hard Level
